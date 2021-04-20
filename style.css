@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #9767A9;
+}
+a:hover{
+    color: #7a3194;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-logo{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    padding-left: 50px;
+    font-size: 15px;
+    
+}
+.busca{
+    border:solid 2px;
+    border-color: #9767A9;
+    border-radius:15px;
+    width:200px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.txt-busca{
+    background-color:transparent;
+    border: none;
+    outline: 0;
+    padding-left: 5px;
+}
+::placeholder{
+    color: #9767A9;
+}
+.img-busca{
+    padding-left: 5px;
+}
+.icom-platform{
+    padding-right: 75px;
+}
+.icom{
+    height: 30px;
+    width: 50px;
+    padding-left: 15px;
+}
