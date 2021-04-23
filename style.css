@@ -71,5 +71,64 @@ ul{
 .icom{
     height: 30px;
     width: 50px;
-    padding-left: 15px;
+    padding-left: 10px;
+}
+.slogan {
+    width: 100%;
+    height: 600px;
+    background-image: url(img/cabeludo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box-staff-one{
+    width: 360px;
+    height: 230px;
+    margin-top: 210px;
+    margin-right: -85px;
+}
+.txt-staff-one{
+    font-size: 75px;
+    color: white;
+}
+.box-staff-two{
+    width: 320px;
+    height: 85px;
+    margin-top: 180px;
+    margin-right: 50px;
+}
+.txt-staff-two{
+    font-size: 35px;
+    color: white;
+    opacity: 0.7;
+}
+.presentation{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(137, 43, 226, 0.671);
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-presentation-title{
+    width: 60%;
+}
+.presentation-title-txt{
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.box-presentation-info{
+   height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.presentation-info-txt{
+    font-size: 20px;
+    width: 75%;
 }
