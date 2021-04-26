@@ -17,20 +17,22 @@ header{
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     position: fixed;
+    z-index: 9999;
 }
 .box-logo{
     height: 100%;
-    width: 15%;
+    width: 35%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-right: 50px;
+    justify-content: space-evenly;
 }
 .logo{
     width: 100px;
     height: 50px;
+}
+nav{
+    width: 100%;
 }
 ul{
     width: 100%;
@@ -38,9 +40,10 @@ ul{
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .menu{
-    padding-left: 50px;
+    padding-left: 10px;
     font-size: 15px;
     
 }
@@ -52,7 +55,6 @@ ul{
     height: 35px;
     display: flex;
     align-items: center;
-    margin-left: 50px;
 }
 .txt-busca{
     background-color:transparent;
@@ -67,7 +69,8 @@ ul{
     padding-left: 5px;
 }
 .icom-platform{
-    padding-right: 75px;
+    display: flex;
+    padding-right: 50px;
 }
 .icom{
     height: 30px;
@@ -123,8 +126,9 @@ ul{
 }
 .presentation-title-txt{
     font-size: 45px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 10px;
+    color: white;
 }
 .box-presentation-info{
    height: 100%;
@@ -137,21 +141,22 @@ ul{
 .presentation-info-txt{
     font-size: 20px;
     width: 75%;
+    color: white;
 }
 h4{
     color: white;
-    font-size: 22px;
+    font-size: 30px;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 50px;
 }
 .contents{
     padding: 15px;
-    font-size: 13px;
+    font-size: 15px;
     color: white;
 }
 .txt-box{
-    width: 70%;
+    width: 60%;
     height: 300px;
     background-color:#9767A9;
 }
@@ -159,76 +164,97 @@ h4{
     background-image: url(img/cabelo\ no\ espelho.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 415px;
-    height: 550px;
+    width: 40%;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    bottom: 50px;
 }
 .img-box-two{
     background-image: url(img/NoPath\ -\ Copia\ \(18\).png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 415px;
-    height: 550px;
+    width: 40%;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    top: 250px;
 }
 .img-box-three{
     background-image: url(img/NoPath\ -\ Copia\ \(19\).png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 415px;
-    height: 550px;
+    width: 40%;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    top: 55px;
 }
 .img-box-four{
     background-image: url(img/NoPath\ -\ Copia\ \(49\).png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 415px;
-    height: 550px;
+    width: 40%;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    top: 300px;
 }
 .img-box-five{
     background-image: url(img/NoPath\ -\ Copia\ \(55\).png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 415px;
-    height: 550px;
+    width: 40%;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    top: 110px;
 }
 .img-box-six{
     background-image: url(img/NoPath\ -\ Copia\ \(56\).png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 415px;
-    height: 550px;
+    width: 40%;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    top: 360px;
 }
 .img-box-seven{
     background-image: url(img/NoPath\ -\ Copia\ \(57\).png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 415px;
-    height: 550px;
+    width: 40%;
+    height: 700px;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    top: 170px;
+}
+.img-onda{
+    position: relative;
+    top: 200px;
+}
+.example{
+    margin-top: 220px;
 }
