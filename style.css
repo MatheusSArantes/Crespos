@@ -284,7 +284,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     width: 600px;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -319,7 +319,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     width: 600px;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -353,7 +353,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     width: 600px;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -387,7 +387,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     width: 600px;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -421,7 +421,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     width: 600px;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -455,7 +455,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     width: 600px;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -489,7 +489,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
   width: 600px;
-  height: 600px;
+  height: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -688,7 +688,7 @@ figure img{
         grid-row-start: 17;
         grid-row-end: 19;
     }
-};
+}
 footer {
     width: 100%;
     height: 70px;
