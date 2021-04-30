@@ -38,16 +38,6 @@ label[for="bt-menu"]{
     width: 80px;
     height: 80px;
 }
-.nav-mobile{
-    width: 0%;
-    display: none;
-}
-@media(max-width: 1050px){
-    .nav-mobile{
-        width: 100%;
-        float: none;
-    }
-}
 #bt-menu{
     display: none;
 }
@@ -535,13 +525,13 @@ h4{
     width: 82%;
     display: grid;
     grid-template-columns: 20.7291vw 13.541vw 13.541vw 20.7291vw 13.541vw;
-    grid-template-rows: 8, 5vw;
+    grid-template-rows: 8.5vw;
     gap: 10px;
 }
 @media(max-width: 768px){
     .examples{
         grid-template-columns:  20.275vw 20.275vw 20vw 20vw;
-        grid-template-rows: 18, 5vw;
+        grid-template-rows: 18.5vw;
     }
 }
 figure img{
