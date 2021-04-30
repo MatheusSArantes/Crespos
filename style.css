@@ -710,7 +710,7 @@ footer {
         background-color: white;
     }
 }
-.site{
+.reference{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -718,7 +718,7 @@ footer {
     width: 70%;
 }
 @media(max-width:750px){
-    .site{
+    .reference{
         width: 100%;
     }
 }
@@ -765,6 +765,6 @@ footer section div img{
     padding-right: 5px;
     padding-bottom: 7px;
 }
-.page{
+.option-navegation{
     display: flex;
 }
